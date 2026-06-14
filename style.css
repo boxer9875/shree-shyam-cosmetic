@@ -564,3 +564,70 @@ nav a{
     text-align:center;
 }
 }
+/* Final Mobile Fix */
+
+@media only screen and (max-width:768px){
+
+.header{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px;
+}
+
+.logo{
+    flex-direction:column;
+    gap:10px;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+}
+
+.logo span{
+    font-size:22px;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin:15px 0;
+}
+
+.call-btn{
+    width:200px;
+}
+
+.hero{
+    padding-top:30px;
+    height:auto;
+    min-height:100vh;
+}
+
+.overlay h1{
+    font-size:42px;
+}
+
+.overlay h3{
+    font-size:24px;
+}
+
+.overlay p{
+    font-size:18px;
+}
+
+.hero-btn{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-btn a{
+    width:90%;
+}
+
+}
