@@ -438,3 +438,58 @@ footer p {
     font-weight: 700;
     color: #FFD700;
 }
+
+/* Mobile Responsive */
+
+@media (max-width:768px) {
+
+    .header {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h3 {
+        font-size: 20px;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-grid,
+    .category-box,
+    .category-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
